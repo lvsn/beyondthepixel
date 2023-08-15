@@ -1,7 +1,7 @@
 # Beyond the Pixel
 ___
 
-This repository contains the calibration code (**Calibration**) and the deep learning code (**Learning Tasks**) for the paper _Beyond the Pixel: a Photometrically Calibrated HDR Dataset for Luminance and Color Prediction_
+This repository contains the calibration code (**Calibration**) and the deep learning code (**Learning Tasks**) for the paper [_Beyond the Pixel: a Photometrically Calibrated HDR Dataset for Luminance and Color Prediction_](https://lvsn.github.io/beyondthepixel/)
 ## Requirements
 
 ```sh
