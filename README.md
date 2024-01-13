@@ -24,7 +24,7 @@ __Per-pixel color__ predicts the temperature map directly.
 __Planar illuminance__ generate only the illuminance scalar.
 
 ### Dataset preparation
-If working with the full dataset (available at http://hdrdb.com/indoor_hdr_photometric/), it needs to be split in train/test/val , inpainted and rescaled to manageable size. The following script automate this to the setup used in the paper.
+If working with the full dataset (available at http://hdrdb.com/indoor-hdr-photometric/), it needs to be split in train/test/val , inpainted and rescaled to manageable size. The following script automate this to the setup used in the paper.
 
 ```
 python prepare_dataset.py [path_to_full_dataset]
@@ -95,6 +95,6 @@ If you wish to test or fine-tune the weights used in the paper, you can download
 > __Beyond the Pixel: a Photometrically Calibrated HDR Dataset for Luminance and Color Prediction__  
 > [Christophe Bolduc](https://christophebolduc.ca/), [Justine Giroux](https://lvsn.github.io/beyondthepixel/), [Marc Hébert](https://cervo.ulaval.ca/en/marc-hebert), [Claude Demers](https://www.arc.ulaval.ca/enseignants-personnel/professeurs/claude-mh-demers), [Jean-François Lalonde](http://www.jflalonde.ca/)  
 > _International Conference on Computer Vision (__ICCV__), 2023_  
-> __[Project page](https://lvsn.github.io/beyondthepixel/)&nbsp;/ [Paper](https://arxiv.org/abs/2304.12372)&nbsp;/ [Dataset](http://hdrdb.com/indoor_hdr_photometric/)&nbsp;/ [BibTeX](https://lvsn.github.io/beyondthepixel/assets/bibtex.txt)__
+> __[Project page](https://lvsn.github.io/beyondthepixel/)&nbsp;/ [Paper](https://arxiv.org/abs/2304.12372)&nbsp;/ [Dataset](http://hdrdb.com/indoor-hdr-photometric/)&nbsp;/ [BibTeX](https://lvsn.github.io/beyondthepixel/assets/bibtex.txt)__
 
 
